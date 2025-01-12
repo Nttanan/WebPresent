@@ -60,6 +60,11 @@
     flex-direction: column;
     row-gap: 20px;
 }
+.detail-profile-box .des-profile{
+    max-width: 500px;
+    word-wrap: break-word;
+}
+
 .button-group-profile{
     display:flex;
     align-items: center;
@@ -91,13 +96,16 @@
 }
 .doing-content-box .doing-list .do-dev{
     display: flex;
+    gap: 20px;
     width: 50%;
     height: 100%;
 }
 .doing-content-box .doing-list .do-dev .do-dev-content h3{
     margin-bottom: 10px;
 }
-
+.do-dev-icon{
+    color: #007ced  ;
+}
 
 .write {
     position: relative;
@@ -153,6 +161,7 @@
         row-gap: 30px;
     }
     .doing-content-box .doing-list .do-dev{
+        gap: 20px;
         display: flex;
         width: 100%;
         height: 100%;
