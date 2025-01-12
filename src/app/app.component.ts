@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'born2bdev';
+  linkToFastwork(){
+    window.location.href = 'https://fastwork.co/user/born2bdev';
+  }
 }
